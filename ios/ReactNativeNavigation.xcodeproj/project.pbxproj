@@ -35,6 +35,7 @@
 		D85083001CBCF8A800FDB961 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85082C71CBCF42400FDB961 /* UIViewController+MMDrawerController.m */; };
 		D8D779981D04B7180050CFEA /* RCTHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D779971D04B7180050CFEA /* RCTHelpers.m */; };
 		D8E11C571CBD1F670018B644 /* RCCDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E11C561CBD1F670018B644 /* RCCDrawerController.m */; };
+		FB13ADE21F0A9D7B00D18F0A /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = FB13ADE11F0A9D7B00D18F0A /* UINavigationController+FDFullscreenPopGesture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -110,6 +111,8 @@
 		D8D779961D04B7180050CFEA /* RCTHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTHelpers.h; sourceTree = "<group>"; };
 		D8D779971D04B7180050CFEA /* RCTHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTHelpers.m; sourceTree = "<group>"; };
 		D8E11C561CBD1F670018B644 /* RCCDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCDrawerController.m; sourceTree = "<group>"; };
+		FB13ADE01F0A9D7B00D18F0A /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		FB13ADE11F0A9D7B00D18F0A /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +202,7 @@
 		D8AFADB41BEE6F3F00A4592D = {
 			isa = PBXGroup;
 			children = (
+				FB13ADDF1F0A9D6700D18F0A /* FDFullscreenPopGesture */,
 				D8D779951D04B7180050CFEA /* Helpers */,
 				260804D51CE0D7090094DBA1 /* RCCToolBar */,
 				D85082BB1CBCF42400FDB961 /* RCCDrawerController */,
@@ -243,6 +247,15 @@
 				D85082CA1CBCF54200FDB961 /* RCCDrawerHelper.h */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FB13ADDF1F0A9D6700D18F0A /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				FB13ADE01F0A9D7B00D18F0A /* UINavigationController+FDFullscreenPopGesture.h */,
+				FB13ADE11F0A9D7B00D18F0A /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			name = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +335,7 @@
 				D85082E51CBCF54200FDB961 /* SidebarFacebookAnimation.m in Sources */,
 				CC84A1A21C1A0C4E00B3A6A2 /* RCCViewController.m in Sources */,
 				D85082E91CBCF54200FDB961 /* SidebarWunderlistAnimation.m in Sources */,
+				FB13ADE21F0A9D7B00D18F0A /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				D85082E11CBCF54200FDB961 /* RCCDrawerHelper.m in Sources */,
 				261108801E6C495400BF5D98 /* UIViewController+Rotation.m in Sources */,
 				D85082FE1CBCF8A800FDB961 /* MMDrawerVisualState.m in Sources */,
